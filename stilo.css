@@ -1,0 +1,79 @@
+
+img:not(.globo){
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-family: impact;
+  font-style: oblique;
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
+h2{
+  font-family: Arial;
+  font-style: italic;
+  color: red;
+}
+
+.nota{
+  opacity: 0.5;
+}
+
+.logo{
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.globo{
+  width: 20px;
+}
+
+.numpasso{
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: mediumpurple;
+  color: purple;
+  font-size: 32px
+}
+
+.passo{
+  font-size: 20px;
+}
+
+body{
+  padding-left: 200px;
+  padding-right: 200px;
+  background-image: linear-gradient( to left top, yellow, limegreen);
+}
+a:link{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: 1px 1px 2px blue
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: 1px 1px 2px purple
+}
+a:hover{
+  color: black;
+  font-style: italic;
+  text-shadow: 1px 1px 2px yellow;
+}
+a:active{
+  color: black;
+  font-style: italic;
+  text-shadow: 1px 1px 2px orange;
+}
